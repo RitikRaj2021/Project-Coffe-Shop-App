@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1test.Pages.ColdDrinks"
+             Title="Cold Drinks">
+    <VerticalStackLayout>
+        <Label Text="Cold Drinks we have to offer" 
+               HorizontalOptions="Center" 
+               TextColor="White" 
+               FontSize="Medium" 
+               Margin="10">
+
+        </Label>
+
+        <Frame Margin="10" BackgroundColor="Orange" BorderColor="Black" MaximumHeightRequest="100">
+            <Label Text="Nitro Cold Brew $3.75" 
+                   TextColor="White" 
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Bold">
+                
+            </Label>
+               
+        </Frame>
+
+        <Frame Margin="10" BackgroundColor="Orange" BorderColor="Black">
+            <Label Text="Iced Latte $4.25" 
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold">
+                
+            </Label>
+        </Frame>
+
+        <Frame Margin="10" BackgroundColor="Orange" BorderColor="Black">
+            <Label Text="Frappucino $4.50" 
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold">
+                
+            </Label>
+        </Frame>
+
+        <Frame Margin="10" BackgroundColor="Orange" BorderColor="Black">
+            <Label Text="Iced Coffee $3.00" 
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold">
+                
+            </Label>
+        </Frame>
+
+        <Frame Margin="10" BackgroundColor="Orange" BorderColor="Black">
+            <Label Text="Creamy Iced Coffee $3.50" 
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold">
+            </Label>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

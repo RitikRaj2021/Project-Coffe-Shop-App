@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1test.Pages.FullMenu"
+             Title="FullMenu">
+    <!--Applys a marin  of 10 to the vertical stack layout-->
+    <VerticalStackLayout Margin="10">
+        <Label 
+            Text="Welcome to the Full Menu Page"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+
+        <!---Displays the Image of the full menu -->
+        <Image Source="fullmenu.png" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Image>
+
+
+    </VerticalStackLayout>
+</ContentPage>

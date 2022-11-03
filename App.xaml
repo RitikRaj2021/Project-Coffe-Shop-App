@@ -1,0 +1,44 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiApp1test"
+             xmlns:pages="clr-namespace:MauiApp1test.Pages"
+             x:Class="MauiApp1test.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+    <Application.MainPage>
+        <Shell>
+            <!--Creates a Tab Bar-->
+            <TabBar x:Name="PhoneTabs ">
+                <!--Name of the tab--> <!--Icon for the tab-->
+                <Tab Title="Home" Icon="home.svg">
+                    <!--Opens up the the Home page from the pages folder-->
+                    <ShellContent ContentTemplate="{DataTemplate pages:HomePage}"/>
+                </Tab>
+                <!--Name of the tab--> <!--Icon for the tab-->
+                <Tab Title="About" Icon="about.svg">
+                    <!--Opens up the the Settings page from the pages folder-->
+                    <ShellContent ContentTemplate="{DataTemplate pages:About}"/>
+                </Tab>
+                <!--Name of the tab--> <!--Icon for the tab-->
+                <Tab Title="Map" Icon="map.svg">
+                    <!--Opens up the the About page from the pages folder-->
+                    <ShellContent ContentTemplate="{DataTemplate pages:Map}"/>
+                </Tab>
+                <!--Name of the tab--><!--Icon for the tab-->
+                <Tab Title="Settings" Icon="gear.svg">
+                    <!--Opens up the the About page from the pages folder-->
+                    <ShellContent ContentTemplate="{DataTemplate pages:Settings}"/>
+                </Tab>
+            </TabBar>
+        </Shell>
+    </Application.MainPage>
+    
+</Application>

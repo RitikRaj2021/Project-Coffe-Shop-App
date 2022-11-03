@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1test.Pages.HomePage"
+             Title="HomePage">
+    <VerticalStackLayout Margin="10">
+        <Label 
+            Text="Welcome to the Jules Cafe App"
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            TextColor="White"
+            Margin="10"
+            HorizontalTextAlignment="Center"/>
+
+        <Image Source="logo.png"
+               Margin="10"
+               MaximumHeightRequest="500"
+               >
+            
+        </Image>
+
+        <Grid>
+            <Button Text="Espresso" 
+                    Clicked="Button_Clicked1" 
+                    BorderWidth="2" 
+                    BorderColor="Black"
+                    Padding="10"
+                    VerticalOptions="FillAndExpand"
+                    Margin="0,5,0,5"
+                    FontSize="Large"
+                    TextColor="White"
+                    >
+                    
+                
+            </Button>
+        </Grid>
+
+        <Grid>
+            <Button Text="Hot Drinks" 
+                    Clicked="Button_Clicked2" 
+                    BorderWidth="2" 
+                    BorderColor="Black"
+                    VerticalOptions="FillAndExpand"
+                    Margin="0,5,0,5"
+                    FontSize="Large"
+                    TextColor="White"
+                    >
+                
+            </Button>
+        </Grid>
+
+        <Grid>
+            <Button Text="Cold Drinks" 
+                    Clicked="Button_Clicked3" 
+                    BorderWidth="2" 
+                    BorderColor="Black"
+                    VerticalOptions="FillAndExpand"
+                    Margin="0,5,0,5"
+                    FontSize="Large"
+                    TextColor="White"
+                    >
+                
+            </Button>
+        </Grid>
+
+        <Grid>
+            <Button Text="Quick Bites" 
+                    Clicked="Button_Clicked4" 
+                    BorderWidth="2" 
+                    BorderColor="Black"
+                    VerticalOptions="FillAndExpand"
+                    Margin="0,5,0,5"
+                    FontSize="Large"
+                    TextColor="White"
+                    >
+                
+            </Button>
+        </Grid>
+
+        <Grid>
+            <Button Text="Full Menu" 
+                    Clicked="Button_Clicked5" 
+                    BorderWidth="2" 
+                    BorderColor="Black"
+                    VerticalOptions="FillAndExpand"
+                    Margin="0,5,0,5"
+                    FontSize="Large"
+                    TextColor="White"
+                    >
+
+            </Button>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

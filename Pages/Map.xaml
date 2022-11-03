@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1test.Pages.Map"
+             Title="Map">
+
+    <!--Embeded map -->
+        <WebView Source="https://mobile.here.com/p/h-aHR0cHM6Ly9wbGFjZXMuYXBpLmhlcmUuY29tL3BsYWNlcy92MS9wbGFjZXMvaGVyZTphZjpzdHJlZXRzZWN0aW9uOkt2eGUxYjVMTWNDam42WjFRd2dsTUE6Q2dnSUJDREp3UHZfQWhBQkdnTXhPREk%252FYXBwX2lkPTNLSVFsczJEU0tsTldmZGFzcEI5JmFwcF9jb2RlPWYydkRuMVRVWUVWbjRrWXR3SzM3eXc%253D?msg=182%20Broadway"/>
+</ContentPage>

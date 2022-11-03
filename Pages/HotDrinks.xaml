@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1test.Pages.HotDrinks"
+             Title="Hot Drinks">
+    <VerticalStackLayout>
+        <Label Text="Hot Drinks we have to offer" 
+               HorizontalOptions="Center" 
+               TextColor="White" 
+               FontSize="Medium" 
+               Margin="10">
+
+        </Label>
+
+        <Frame Margin="10" BackgroundColor="Orange" BorderColor="Black">
+           <Label Text="Blonde Cafe latte $3.75" 
+                  TextColor="White" 
+                  HorizontalOptions="Center"
+                  FontAttributes="Bold">
+               
+           </Label>
+        </Frame>
+     
+        <Frame Margin="10" BackgroundColor="Orange" BorderColor="Black">
+            <Label Text="Caramel Macchiatio $4.25" 
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center">
+                
+            </Label>
+        </Frame>
+
+        <Frame Margin="10" BackgroundColor="Orange" BorderColor="Black">
+            <Label Text="Skinny Mocha $4.50" 
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center">
+                
+            </Label>
+        </Frame>
+
+        <Frame Margin="10" BackgroundColor="Orange" BorderColor="Black">
+            <Label Text="Hot Coffee $3.25" 
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center">
+                
+            </Label>
+        </Frame>
+
+        <Frame Margin="10" BackgroundColor="Orange" BorderColor="Black">
+            <Label Text="Irish Coffee $4.25" 
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"></Label>
+        </Frame>
+
+    </VerticalStackLayout>
+</ContentPage>

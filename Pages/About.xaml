@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1test.Pages.About"
+             Title="About">
+
+    <!--Applys the maring of 10 to the vertical stack layout-->
+    <StackLayout Margin="10">
+        <!--Top page header, with style apllied to it-->
+        <Label 
+            Text="Welcome to the about page"
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            TextColor="White"
+            />
+
+        <!--Image of the shop -->
+        <Image Source="shop.jpeg"></Image>
+
+        <!--Displays the title of the cafe with the style appllied to it  -->
+        <Label 
+            Text="Jules Cafe"
+            FontSize="Large"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalTextAlignment="Start"
+            TextColor="White"/>
+
+        <!--Used to put a underline underneath the name of the cafe -->
+        <BoxView Color="Black" 
+                 WidthRequest ="100" 
+                 HeightRequest="1" 
+                 HorizontalOptions="Start"/>
+
+        <!--Addrees of the caffe with the styleing applied to it -->
+        <Label 
+            Text="4A Kent Street"
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalTextAlignment="Start" 
+            TextColor="White"/>
+
+        <!--Displays the town -->
+        <Label 
+            Text="New Market"
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalTextAlignment="Start"
+            TextColor="White"/>
+
+        <!--Displays the city  -->
+        <Label 
+            Text="Auckland"
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalTextAlignment="Start"
+            TextColor="White"/>
+
+        <!--Displays the postcode  -->
+        <Label 
+            Text="1023"
+            FontSize="Medium"
+            VerticalOptions="Center" 
+            HorizontalTextAlignment="Start"
+            TextColor="White"/>
+
+        <!--Displays the phone number with the style applied  -->
+        <Label 
+            Text="+64 9 444 5555"
+            FontSize="Medium"
+            VerticalOptions="Center" 
+            HorizontalTextAlignment="Start"
+            TextColor="White"/>
+
+        <!--Display email address and style applied -->
+        <Label 
+            Text="info@julescafe.co.nz"
+            FontSize="Medium"
+            VerticalOptions="Center" 
+            HorizontalTextAlignment="Start"
+            TextColor="White"/>
+
+        <!--Instartagram Icon -->
+        <Image Source="instagram.svg"
+               WidthRequest="50"
+               HorizontalOptions="Start"
+               >
+
+        </Image>
+
+        <!--Facebook icon -->
+        <Image Source="facebook.png"
+               WidthRequest="50"
+               HorizontalOptions="Start"
+               >
+        </Image>
+
+    </StackLayout>
+
+
+
+</ContentPage>
